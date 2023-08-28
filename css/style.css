@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;1,700&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D968D;
+    color: white;
+    height:400px ;
+    padding: 20px;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav > span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: -2px;
+}
+.links > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+nav > button {
+    padding: 5px 20px;
+    margin-top: -5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.237);
+    border: none;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+header > img {
+    padding: 0;
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} 
+header > span {
+    font-size: 50px;
+    margin-left: 120px;
+    font-weight: 500;
+    margin-top: 80px;
+    width: 55%;
+}
+main {
+    width: 79.1%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+main > section {
+    display: flex;
+}
+.imgandinfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.info > p {
+    margin-bottom: 7px;
+}
+.info > p > span {
+    color: #1D968D;
+    font-size: 17px;
+    font-weight: 500;
+}
+.art1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    row-gap: 75.4px;
+}
+.art1 > span {
+    color: #1D968D;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
